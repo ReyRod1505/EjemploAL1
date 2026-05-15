@@ -22,11 +22,11 @@ public class Ejercicio2 {
         String fin = JOptionPane.showInputDialog(
                 "Ingrese un nombre para agregar al final:");
 
-        // Agregar al inicio y al final
+
         nombres.addFirst(inicio);
         nombres.addLast(fin);
 
-        // Mostrar contenido del LinkedList
+
         JOptionPane.showMessageDialog(
                 null,
                 "Lista de nombres:\n" + nombres
